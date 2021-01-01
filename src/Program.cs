@@ -8,7 +8,7 @@ public class UnixEpochClock
         ShowUnix(date);
     }
 
-    public static void ShowUnix(DateTime date)
+    private static void ShowUnix(DateTime date)
     {
         Console.WriteLine();
         Console.ForegroundColor = ConsoleColor.Cyan;
